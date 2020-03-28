@@ -1,0 +1,19 @@
+{
+    "name": "opcodespace/infusionsoft-connector",
+    "description": "Infusionsoft connector in wordpress",
+    "type": "library",
+    "require": {
+        "infusionsoft/php-sdk": "dev-master"
+    },
+    "require-dev": {
+        "opcodespace/ops-connector": "dev-master"
+    },
+    "license": "opcodespace",
+    "authors": [
+        {
+            "name": "mehedee",
+            "email": "mehedee@opcodespace.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
