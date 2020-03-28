@@ -8,7 +8,6 @@
     "require-dev": {
         "opcodespace/ops-connector": "dev-master"
     },
-    "license": "opcodespace",
     "authors": [
         {
             "name": "mehedee",
