@@ -3,9 +3,9 @@
     "description": "Infusionsoft connector in wordpress",
     "license": "MIT",
     "require": {
+        "opcodespace/ops-connector": "1.0.*",
         "infusionsoft/php-sdk": "1.4.*",
-        "php": ">=7.0.0",
-        "opcodespace/ops-connector": "1.0.*"
+        "php": ">=7.0.0"
     },
     "authors": [
         {
@@ -18,5 +18,4 @@
             "OpsInfusionsoft": "src/"
         }
     }
-
 }
