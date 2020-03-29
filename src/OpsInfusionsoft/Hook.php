@@ -31,4 +31,5 @@ class Hook
     }
 }
 
+
 add_action('plugins_loaded', array('\OpsInfusionsoft\Hook', 'init'));
