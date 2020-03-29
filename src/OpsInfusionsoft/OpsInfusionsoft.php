@@ -8,12 +8,12 @@ class OpsInfusionsoft
 {
     public $infusionsoft;
     public $Token;
-    public function __construct()
+    public function __construct($clientId, $clientSecret, $redirectUri)
     {
         $this->infusionsoft = new \Infusionsoft\Infusionsoft(array(
-            'clientId'     => IS_CLIENT_ID,
-            'clientSecret' => IS_SECRET_ID,
-            'redirectUri'  => IS_REDIRECT_URI,
+            'clientId'     => $clientId,
+            'clientSecret' => $clientSecret,
+            'redirectUri'  => $redirectUri,
         ));
 
         $this->Token = new Token();
