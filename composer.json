@@ -5,7 +5,7 @@
     "require": {
         "infusionsoft/php-sdk": "1.4.*",
         "php": ">=7.0.0",
-        "opcodespace/ops-connector": "1.1.*"
+        "opcodespace/ops-connector": "1.0.*"
     },
     "authors": [
         {
